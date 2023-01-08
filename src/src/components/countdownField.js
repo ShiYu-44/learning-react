@@ -6,7 +6,7 @@ const CountdownField = () =>{
     return (
         <div className="Countdown-field App-contents">
             <div>
-            カウントダウン: <Countdown date={Date.now() + LIMIT_TIME} />
+            制限時間: <Countdown date={Date.now() + LIMIT_TIME} />
             </div>
         </div>
     )

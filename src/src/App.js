@@ -1,15 +1,16 @@
 import './App.css';
-import Place from'./components/place'
+import Place from'./components/place';
 import CountdownField from './components/countdownField';
+import CountButton from './components/countButton';
 
 function App() {
   return (
     <div className="App">
       <headers className="App-header">
-        
-        <div>捨て活チャレンジ</div>
+        <div>3分捨て活チャレンジ</div>
         <Place/>
         <CountdownField />
+        <CountButton/>
       </headers>
     </div>
 

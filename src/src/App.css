@@ -8,30 +8,37 @@
 }
 
 .App-header {
+  align-items: center;
   background: linear-gradient(#e66465, #e5c391);
-  min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .App-contents {
+  align-items: center;
+  color: white;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;
 }
 
 .contents {
+  align-items: center;
+  color: white;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  justify-content: center;
+}
+
+.trash-button{
+  background-color: #eb6100;
+  border: 2px dashed white;
   color: white;
+  font-size: calc(10px + 2vmin);
 }
