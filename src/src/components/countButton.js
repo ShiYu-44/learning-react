@@ -1,5 +1,7 @@
 import React from 'react';
 
+const INCREMENTAL = 1
+
 class CountButton extends React.Component {
     constructor(props) {
       super(props);
@@ -7,7 +9,7 @@ class CountButton extends React.Component {
     }
   
     buttonClick() {
-      const trashCount = this.state.count + 1
+      const trashCount = this.state.count + INCREMENTAL
       this.setState({output:"現在「" + trashCount + "」個の物を手放しています！", count:trashCount});
     }
   
@@ -24,4 +26,4 @@ class CountButton extends React.Component {
     }
   }
 
-  export default CountButton;
+export default CountButton;
